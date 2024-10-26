@@ -1,0 +1,42 @@
+css
+   body {
+       background-image: url('background.jpg'); /* Use the name of your background image */
+       background-size: cover; /* Adjusts the image to cover the entire background */
+       background-position: center; /* Centers the image */
+       background-repeat: no-repeat; /* Prevents the image from repeating */
+   }
+body {
+       font-family: Arial, sans-serif;
+       margin: 10;
+       padding: 5;
+       background-color: #d60202;
+   }
+
+   header {
+       background-color: #007BFF;
+       color: rgb(252, 248, 12);
+       text-align: center;
+       padding: 4em 0;
+   }
+
+   main {
+       padding: 20px;
+   }
+
+   section {
+       margin-bottom: 20px;
+       background-color: #14e901;
+       padding: 15px;
+       border-radius: 5px;
+       box-shadow: 0 0 10px hsla(0, 96%, 44%, 0.1);
+   }
+
+   footer {
+       text-align: center;
+       padding: 10px 0;
+       background-color: #007BFF;
+       color: white;
+       position: relative;
+       bottom: 0;
+       width: 100%;
+   }
